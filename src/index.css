@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* Aquí también puedes definir variables de fuente si quieres */
+  --font-minecraft: "Kanit", sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-minecraft);
+  }
+  
+  h1, h2, h3, h4, button {
+    @apply font-black uppercase tracking-tight;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
