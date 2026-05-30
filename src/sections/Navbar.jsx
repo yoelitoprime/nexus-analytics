@@ -89,7 +89,7 @@ export default function Navbar() {
             onClick={(e) => handleLinkClick(e, '/analytics')}
             className={`transition-colors ${isActive('/analytics') ? 'text-blue-400 font-bold' : 'text-slate-400 hover:text-blue-400'}`}
           >
-            DATA INSIGHTS
+            DATA INSIGHTSSSSSS
           </Link>
         </li>
         <li>
